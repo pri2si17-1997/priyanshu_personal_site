@@ -30,7 +30,7 @@ const Experience = () => {
                     <h3 class="flex items-center mb-1 text-lg font-bold text-white text-left">{elem.designation}</h3>
                     <h3 class="flex items-center mb-1 text-lg font-bold text-white text-left">{elem.location}</h3>
                     <time class="mb-4 text-base font-normal text-white text-left">{elem.duration}</time>
-                    <ul class="space-y-1 list-inside text-white mt-5">
+                    <ul class="space-y-2 list-inside text-white mt-5">
                       {elem.work.map((item, w_idx) => {
                         return (
                           <div id={w_idx}>
