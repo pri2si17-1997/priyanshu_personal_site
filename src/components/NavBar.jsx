@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { socialsData } from "../data/socialsData";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -23,7 +24,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black nav">
       <div>
-        <h1 className="text-4xl font-bold ml-2"><a className="link-underline link-underline-black" href="#" target="_blank" rel="noreferrer">Priyanshu Sinha</a></h1>
+        <h1 className="text-4xl font-bold ml-2"><a className="link-underline link-underline-black" href={socialsData.linkedIn} target="_blank" rel="noreferrer">Priyanshu Sinha</a></h1>
       </div>
 
       <ul className="hidden md:flex">
