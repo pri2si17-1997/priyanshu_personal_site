@@ -9,6 +9,9 @@ import {
 import {
     HiDocumentDownload
 } from 'react-icons/hi';
+import {
+    SiGooglescholar
+} from 'react-icons/si';
 import Resume from '../assets/resume/resume.pdf';
 import { socialsData } from '../data/socialsData';
 
@@ -24,7 +27,7 @@ const SocialContacts = (props) => {
                     <FaLinkedin
                         className='landing--social'
                         aria-label='LinkedIn'
-                        size={40}
+                        size={32}
                         color="white"
                     />
                 </a>
@@ -38,7 +41,21 @@ const SocialContacts = (props) => {
                     <FaGithub
                         className='landing--social'
                         aria-label='GitHub'
-                        size={40}
+                        size={32}
+                        color="white"
+                    />
+                </a>
+            )}
+            {socialsData.scholar && (
+                <a
+                    href={socialsData.scholar}
+                    target='_blank'
+                    rel='noreferrer'
+                >
+                    <SiGooglescholar
+                        className='landing--social'
+                        aria-label='googlescholar'
+                        size={32}
                         color="white"
                     />
                 </a>
@@ -52,7 +69,7 @@ const SocialContacts = (props) => {
                     <FaTwitter
                         className='landing--social'
                         aria-label='Twitter'
-                        size={40}
+                        size={32}
                         color="white"
                     />
                 </a>
@@ -66,7 +83,7 @@ const SocialContacts = (props) => {
                     <FaGitlab
                         className='landing--social'
                         aria-label='GitLab'
-                        size={40}
+                        size={32}
                         color="white"
                     />
                 </a>
@@ -80,7 +97,7 @@ const SocialContacts = (props) => {
                     <FaBlog
                         className='landing--social'
                         aria-label='Blog'
-                        size={40}
+                        size={32}
                         color="white"
                     />
                 </a>
@@ -95,7 +112,7 @@ const SocialContacts = (props) => {
                     <HiDocumentDownload
                         className='landing--social'
                         aria-label='Resume'
-                        size={40}
+                        size={32}
                         color="white"
                     />
                 </a>
