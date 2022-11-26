@@ -6,7 +6,7 @@ const Publications = () => {
     return (
         <div
             name="publications"
-            className="w-full bg-gradient-to-b from-black via-black to-gray-800 text-white publications"
+            className="w-full bg-gradient-to-b from-gray-800 to-black text-white publications"
         >
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div class="pb-8">
