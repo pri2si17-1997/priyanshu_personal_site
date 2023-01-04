@@ -7,7 +7,7 @@ export const experienceData = [
         'display': true,
         'tag': 'Current',
         'work': [
-            'Creating a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs.',
+            'Creating a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs using Learning Interpretability Tool (LIT).',
             'Making a survival analysis forecasting model to forecast kits in time for clinical kits sent out.'
         ]
     },
@@ -32,7 +32,8 @@ export const experienceData = [
         'work': [
             'Developing a simulation tool to calculate departmental costs, faculty requirements, and student intake to reduce manual efforts by 40%.',
             'Made a Virtual Reality teaching tool prototype in collaboration with Emory University researchers and surgeons to scale immersive learning during surgical procedures. By enabling VR annotations of surgical process scenes via a voice and hand controller, the prototype  supports live interaction with students and doctors during procedures.',
-            'Optimized deep learning imaging models using INT-8 quantization, achieving a 75% reduction in size, resulting in reduced memory consumption and 4x gain in inference speed for edge devices such as edge devices using TensorFlow Model Optimization Toolkit.'
+            'Optimized deep learning imaging models using INT-8 quantization, achieving a 75% reduction in size, resulting in reduced memory consumption and 4x gain in inference speed for edge devices such as edge devices using TensorFlow Model Optimization Toolkit.',
+            'Made tutorials for students and healthcare professionals to understand the application of machine learning and deep learning algorithms on healthcare data using MIMIC-IV dataset, Postgress database and TensorFlow.'
         ]
     },
     {
@@ -42,7 +43,9 @@ export const experienceData = [
         'location': "Noida, UP, India",
         'display': false,
         'work': [
-            'Created a semi-automated annotation tool to label data for autonomous cars, including classification, detection, and segmentation tasks of scenes leveraging deep learning models to generate pseudo-labels, reducing manual labeling efforts by 75%.',
+            'Created LoLa (Mentor\'s Proprietary Low Latency Framework) components to cluster Lidar\'s point cloud and project it on image for classification and detction using Python and C++.',
+            'Created a semi-automated annotation tool to label data for autonomous cars, including classification, detection, and segmentation tasks of scenes leveraging deep learning models to generate pseudo-labels, reducing manual labeling efforts by 60%.',
+            'Compared evaluation performance of SOTA object detection models like YOLO V3, RetinaNet with proprietary hierarchical classifier on KITTI and simulated data from Simcenter Prescan.',
             'Made web-based tool to scan for security vulnerabilities (CVEs) in packages, used in Linux based operating systems for automobiles, and checked if security patch is applied or not, reducing manual efforts by 75%.'
         ]
     },
