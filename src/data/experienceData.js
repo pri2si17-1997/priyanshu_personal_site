@@ -37,7 +37,7 @@ export const experienceData = [
         ]
     },
     {
-        'company_name': "Mentor Graphics India Pvt. Ltd. (SIEMENS DISW)",
+        'company_name': "Siemens Digital Industries Software",
         'designation': "Senior Member Technica Staff",
         'duration': "June, 2018 - August, 2021",
         'location': "Noida, UP, India",
@@ -50,7 +50,7 @@ export const experienceData = [
         ]
     },
     {
-        'company_name': "Mentor Graphics India Pvt. Ltd. (SIEMENS DISW)",
+        'company_name': "Siemens Digital Industries Software",
         'designation': "Intern",
         'duration': "February 2018 - May 2018 | May 2017 - August 2017",
         'location': "Noida, UP, India",
