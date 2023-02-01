@@ -6,9 +6,9 @@ export const experienceData = [
         'location': "Durhan, NC, USA",
         'display': true,
         'tag': 'Current',
-        'work': [
+        'work': [,
+            'Working on clustering document based image forms and use it as pseudo labels for training a multi-class classifier.',
             'Creating a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs using Learning Interpretability Tool (LIT).',
-            'Making a survival analysis forecasting model to forecast kits in time for clinical kits sent out.'
         ]
     },
     {
@@ -30,7 +30,8 @@ export const experienceData = [
         'display': true,
         'tag': 'Current',
         'work': [
-            'Developing a simulation tool to calculate departmental costs, faculty requirements, and student intake to reduce manual efforts by 40%.',
+            'Working on Dementia/Alzheimer detection in early stage using image and text modalities. This can be used as screening tool for neuro-degenerative disease and provide better healthcare to patients.',
+            'Developed a simulation tool to calculate departmental costs, faculty requirements, and student intake.',
             'Made a Virtual Reality teaching tool prototype in collaboration with Emory University researchers and surgeons to scale immersive learning during surgical procedures. By enabling VR annotations of surgical process scenes via a voice and hand controller, the prototype  supports live interaction with students and doctors during procedures.',
             'Optimized deep learning imaging models using INT-8 quantization, achieving a 75% reduction in size, resulting in reduced memory consumption and 4x gain in inference speed for edge devices such as edge devices using TensorFlow Model Optimization Toolkit.',
             'Made tutorials for students and healthcare professionals to understand the application of machine learning and deep learning algorithms on healthcare data using MIMIC-IV dataset, Postgress database and TensorFlow.'
@@ -38,7 +39,7 @@ export const experienceData = [
     },
     {
         'company_name': "Siemens Digital Industries Software",
-        'designation': "Senior Member Technica Staff",
+        'designation': "Senior Software Engineer",
         'duration': "June, 2018 - August, 2021",
         'location': "Noida, UP, India",
         'display': false,
