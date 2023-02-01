@@ -6,7 +6,7 @@ export const experienceData = [
         'location': "Durhan, NC, USA",
         'display': true,
         'tag': 'Current',
-        'work': [,
+        'work': [
             'Working on clustering document based image forms and use it as pseudo labels for training a multi-class classifier.',
             'Creating a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs using Learning Interpretability Tool (LIT).',
         ]
