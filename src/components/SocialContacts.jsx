@@ -4,7 +4,7 @@ import {
     FaLinkedin,
     FaGithub,
     FaGitlab,
-    FaBlog,
+    // FaBlog,
 } from 'react-icons/fa';
 import {
     HiDocumentDownload
