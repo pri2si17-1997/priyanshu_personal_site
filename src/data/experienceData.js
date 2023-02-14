@@ -8,7 +8,8 @@ export const experienceData = [
         'tag': 'Current',
         'work': [
             'Working on clustering document based image forms and use it as pseudo labels for training a multi-class classifier.',
-            'Creating a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs using Learning Interpretability Tool (LIT).',
+            'Created a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs using Learning Interpretability Tool (LIT) and Shapely analysis.',
+            'Automated John Hopkins data pull to AWS S3 bucket using AWS Lambda function.'
         ]
     },
     {
@@ -19,7 +20,7 @@ export const experienceData = [
         'display': false,
         'work': [
             'Performed time-series data analysis, created a deep LSTM network for weekly clinical screening rate forecasting, and examined the effect of COVID-19 on screening rate using TensorFlow and AWS Sagemaker.',
-            'Developed a prototype for augmented annotation to categorize patient emails with a few samples using the BERT model and Hugging Face framework, which resulted in a 10x reduction in manual labeling work without noticeably affecting the model\'s performance.'
+            'Developed a prototype for augmented annotation to categorize patient emails with a few samples using the BERT model and Hugging Face framework, which aims in a 10x reduction in manual labeling work without noticeably affecting the model\'s performance.'
         ]
     },
     {

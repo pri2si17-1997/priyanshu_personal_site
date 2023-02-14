@@ -88,7 +88,7 @@ const SocialContacts = (props) => {
                     />
                 </a>
             )}
-            {socialsData.blog && (
+            {/* {socialsData.blog && (
                 <a
                     href={socialsData.blog}
                     target='_blank'
@@ -101,7 +101,7 @@ const SocialContacts = (props) => {
                         color="white"
                     />
                 </a>
-            )}
+            )} */}
             {(
                 <a
                     href={Resume}
