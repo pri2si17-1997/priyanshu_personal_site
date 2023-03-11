@@ -3,14 +3,10 @@ export const experienceData = [
         'company_name': "Labcorp Drug Development",
         'designation': "Stundent Intern - Data Science",
         'duration': "September, 2022 - Current",
-        'location': "Durhan, NC, USA",
+        'location': "Durham, NC, USA",
         'display': true,
         'tag': 'Current',
-        'work': [
-            'Working on clustering document based image forms and use it as pseudo labels for training a multi-class classifier.',
-            'Created a tool to assess the deep neural network black box models explanability in order to comprehend the aspects influencing prediction and to meet stakeholder needs using Learning Interpretability Tool (LIT) and Shapely analysis.',
-            'Automated John Hopkins data pull to AWS S3 bucket using AWS Lambda function.'
-        ]
+        'skills': ['Python', 'AWS Sagemaker', 'AWS S3', 'AWS Lambda', 'AWS Athena', 'XAI', 'SHAP', 'TensorFlow', 'HuggingFace', 'Clustering', 'BERT', 'TF-IDF', 'Tabular Data']
     },
     {
         'company_name': "Labcorp Drug Development",
@@ -18,10 +14,7 @@ export const experienceData = [
         'duration': "May, 2022 - August, 2022",
         'location': "Princeton, NJ, USA",
         'display': false,
-        'work': [
-            'Performed time-series data analysis, created a deep LSTM network for weekly clinical screening rate forecasting, and examined the effect of COVID-19 on screening rate using TensorFlow and AWS Sagemaker.',
-            'Developed a prototype for augmented annotation to categorize patient emails with a few samples using the BERT model and Hugging Face framework, which aims in a 10x reduction in manual labeling work without noticeably affecting the model\'s performance.'
-        ]
+        'skills': ['Python', 'AWS Sagemaker', 'AWS S3', 'AWS Lamnda', 'AWS Athena', 'TensorFlow', 'HuggingFace', 'BERT']
     },
     {
         'company_name': "Indiana University-Purdue University, Indianapolis",
@@ -30,13 +23,7 @@ export const experienceData = [
         'location': "Indianapolis, IN, USA",
         'display': true,
         'tag': 'Current',
-        'work': [
-            'Working on Dementia/Alzheimer detection in early stage using image and text modalities. This can be used as screening tool for neuro-degenerative disease and provide better healthcare to patients.',
-            'Developed a simulation tool to calculate departmental costs, faculty requirements, and student intake.',
-            'Made a Virtual Reality teaching tool prototype in collaboration with Emory University researchers and surgeons to scale immersive learning during surgical procedures. By enabling VR annotations of surgical process scenes via a voice and hand controller, the prototype  supports live interaction with students and doctors during procedures.',
-            'Optimized deep learning imaging models using INT-8 quantization, achieving a 75% reduction in size, resulting in reduced memory consumption and 4x gain in inference speed for edge devices such as edge devices using TensorFlow Model Optimization Toolkit.',
-            'Made tutorials for students and healthcare professionals to understand the application of machine learning and deep learning algorithms on healthcare data using MIMIC-IV dataset, Postgress database and TensorFlow.'
-        ]
+        'skills': ['Python', 'TensorFlow', 'BERT', 'MySQL', 'PostgreSQL', 'Quantization', 'INT-8 Quantization', 'Tensorflow Model Optimization Toolkit', 'PyTorch', 'Research', 'Image Segmentation', 'Computer Vision', 'Virtual Reality']
     },
     {
         'company_name': "Siemens Digital Industries Software",
@@ -44,12 +31,7 @@ export const experienceData = [
         'duration': "June, 2018 - August, 2021",
         'location': "Noida, UP, India",
         'display': false,
-        'work': [
-            'Created LoLa (Mentor\'s Proprietary Low Latency Framework) components to cluster Lidar\'s point cloud and project it on image for classification and detction using Python and C++.',
-            'Created a semi-automated annotation tool to label data for autonomous cars, including classification, detection, and segmentation tasks of scenes leveraging deep learning models to generate pseudo-labels, reducing manual labeling efforts by 60%.',
-            'Compared evaluation performance of SOTA object detection models like YOLO V3, RetinaNet with proprietary hierarchical classifier on KITTI and simulated data from Simcenter Prescan.',
-            'Made web-based tool to scan for security vulnerabilities (CVEs) in packages, used in Linux based operating systems for automobiles, and checked if security patch is applied or not, reducing manual efforts by 75%.'
-        ]
+        'skills': ['Python', 'TensorFlow', 'BERT', 'MySQL', 'C', 'Quantization', 'INT-8 Quantization', 'C++', 'Embedded Systems', 'Linux', 'Autonomous Driving', 'SQLite', 'MATLAB']
     },
     {
         'company_name': "Siemens Digital Industries Software",
@@ -57,10 +39,7 @@ export const experienceData = [
         'duration': "February 2018 - May 2018 | May 2017 - August 2017",
         'location': "Noida, UP, India",
         'display': false,
-        'work': [
-            'Developed an automated framework to test audio routing and detect defective nodes in the A2B analyzer, an analysis tool for automotive audio using Python and Javascript.',
-            'Designed and developed a CVE tool to detect Common Vulnerability Exposures (CVEs) in packages in Linux-based operating systems used in automobiles, check if a security patch for vulnerabilities is applied or not, and generate a graphical report.'
-        ]
+        'skills': ['Python', 'TensorFlow', 'C', 'C++', 'Embedded Systems', 'Linux', 'JavaScript']
     },
     {
         'company_name': "Google Summer of Code (LibreHealth)",
@@ -69,10 +48,7 @@ export const experienceData = [
         'location': "Remote",
         'display': true,
         'tag': 'opensource',
-        'work': [
-            'Mentored GSoC students to develop UI for Virtual-Reality application and integrate machine learning models for classification, detection, and segmentation of disease in a VR environment for immersive learning during medical procedures. This app includes features such as voice chat, live streaming and video playback.',
-            'Mentored a GSoC student to migrate the LibreHealth EHR application from native PHP to Django for modular code and ease in test-driven development.'
-        ]
+        'skills': ['Python', 'Git', 'MySQL', 'Django', 'Virtual Reality', 'Medical Imaging', 'Leadership', 'Computer Vision']
     },
     {
         'company_name': "Google Summer of Code (LibreHealth)",
@@ -81,9 +57,6 @@ export const experienceData = [
         'location': "Remote",
         'display': true,
         'tag': 'opensource',
-        'work': [
-            'Refactored the LibreHealth EHR database and optimized it for better query performance.',
-            'Migrated code to Django and implemented ORM and object-oriented practices such as inheritance and wrote unit tests for different modules.'
-        ]
+        'skills': ['Python', 'Git', 'MySQL', 'Django', 'DBMS']
     }
 ]
